@@ -16,7 +16,7 @@ declare srcWorkingDirectory=~/contoso-pets/src
 declare setupWorkingDirectory=~/contoso-pets/setup
 declare subscriptionId=$(az account show --query id --output tsv)
 declare resourceGroupName=""
-declare defaultLocation="centralus"
+declare defaultLocation="australiaeast"
 
 # AppService Declarations
 declare appServicePlan=appservice$instanceId
